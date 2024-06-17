@@ -1,5 +1,5 @@
-#C - Hello, World
-##GeneralWhy 
+# C - Hello, World\nl
+## General\nl 
 C programming is awesome
 Who invented C
 Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
