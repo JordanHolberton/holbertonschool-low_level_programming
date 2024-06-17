@@ -1,20 +1,22 @@
 #include <stdio.h>
-/**
- * main - list all possible size type
- *
- * Return: Do nothing
- */
-int main (void){
-	int a;
-	float b;
-	long int c;
-	long long int d;
-	char e;
 
-	printf("Size of int: %zu bytes\n", sizeof(a));
-	printf("Size of float: %zu bytes\n", sizeof(b));
-	printf("Size of long int: %zu bytes\n", sizeof(c));
-	printf("Size of long long int: %zu bytes \n", sizeof(d))
-		printf("Size of char: %zu byte\n", sizeof(e));
+/**
+ * main - List all sizes
+ *
+ * Return: Nothing
+ */
+int main(void)
+{
+	int a;
+	long int b;
+	long long int c;
+	char d;
+	float f;
+
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
