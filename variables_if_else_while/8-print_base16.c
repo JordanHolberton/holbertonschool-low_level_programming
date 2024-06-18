@@ -1,16 +1,21 @@
 #include <stdio.h>
+
 /**
-  *main - prints numbers of base 16 in lowercase
-  *Return: 0
-*/
+ * main - Print tout les chiffres hexadécimaux
+ *
+ * Return: 0
+ */
+
 int main(void)
 {
-    int num;
+	int d;
+	char low;
 
-    for (num = 0; num <= 15; num++)
-    {
-        printf("%x", num);
-    }
-    printf("\n");
-    return (0);
+	for (d = '0'; d <= '9'; d++)
+		putchar(d);
+	for (low = 'a'; low <= 'f'; low++)
+		putchar(low);
+	putchar('\n');
+
+	return (0);
 }
