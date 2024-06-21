@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * print_to_98 - print all number to 98
- * @i print number under 98 to 98
- * @j print number out of 98 to 98
- * @n base number
+ * @i: print number under 98 to 98
+ * @j: print number out of 98 to 98
+ * @n: base number
  *
  * Return: 0
  */
