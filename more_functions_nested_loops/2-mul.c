@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * mul - multiplie 2 numbers
- * @resultat: multiplication into a * b
- * return: resultat
+ * @a: number 1
+ * @b: number 2
+ * Return: resultat
  */
 
 int mul(int a, int b)
@@ -12,5 +13,5 @@ int mul(int a, int b)
 
 	resultat = a * b;
 
-	return(resultat);
+	return (resultat);
 }
