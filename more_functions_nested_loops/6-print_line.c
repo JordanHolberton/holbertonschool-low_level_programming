@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- *
- *
- *
+ * print_line - Print line by numbers
+ * @n: number
  */
 
 void print_line(int n)
@@ -14,7 +13,7 @@ void print_line(int n)
 	else
 	{
 		int i;
-		
+
 		for (i = 1; i <= n; i++)
 		{
 			_putchar('_');
