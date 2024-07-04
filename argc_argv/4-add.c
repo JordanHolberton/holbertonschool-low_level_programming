@@ -4,7 +4,7 @@
 /**
  *main - adds two positive number
  *@argc: number of arguments
- *@argv array of arguments
+ *@argv: array of arguments
  *
  * Return: 0, or 1
  */
